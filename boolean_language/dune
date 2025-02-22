@@ -1,0 +1,21 @@
+(executable
+  (name printf_example)
+  (libraries str))
+
+(executable
+  (name bool_lang_variants_1))
+
+(executable
+  (name bool_lang_variants_2))
+
+(executable
+  (name bool_lang_phantom))
+
+(executable
+  (name gadt_bool_lang_1_short_syntax))
+
+(executable
+  (name gadt_bool_lang_2_long_syntax))
+
+;(env
+;  (dev (flags (:standard -w -37))))
